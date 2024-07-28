@@ -108,7 +108,6 @@ li:nth-child(1) {
 
 /* banner stylse */
 .banner-container {
-  /* border: 2px solid red; */
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -216,4 +215,54 @@ li:nth-child(1) {
   font-size: 16px;
   font-weight: 400;
   color: rgba(239, 237, 232, 0.65);
+}
+
+/* habit styles */
+.habit-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.habit-primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit-secondary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.habit-secondary-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.habit-secondary-img {
+  border-radius: 50%;
+}
+
+.secondary-content-title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.secondary-content-description {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.secondary-content-details {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
