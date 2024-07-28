@@ -266,3 +266,43 @@ li:nth-child(1) {
   align-items: center;
   text-align: center;
 }
+
+/* run section styles */
+
+.run {
+  width: 80%;
+  max-height: 371px;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
+  gap: 165px;
+}
+
+.run-btn {
+  width: 224px;
+}
+
+.run-details {
+  width: 443px;
+  height: 290px;
+  margin: 40px 0px 40px 54px;
+  color: white;
+}
+
+.run-description {
+  margin-top: 14px;
+  margin-bottom: 34px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.run-img {
+  width: 366px;
+  height: 312px;
+  margin: 30px 32px 30px 0px;
+  border-radius: 18px;
+}
