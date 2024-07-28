@@ -53,8 +53,6 @@ header {
   );
 }
 
-
-
 /* nav styles */
 .navName {
   margin-top: 40px;
@@ -106,4 +104,116 @@ li:nth-child(1) {
   border-radius: 46px;
   background: rgb(230, 83, 60);
   padding: 8px 20px 8px 20px;
+}
+
+/* banner stylse */
+.banner-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.banner-content {
+  margin-top: 80px;
+  max-width: 520px;
+  max-height: 100%;
+  /* border: 2px solid red; */
+}
+
+.banner-title {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.banner-title span {
+  font-size: 70px;
+  font-weight: 400;
+  font-family: "Playwrite DK Loopet", cursive;
+}
+.banner-description {
+  /* border: 2px solid red; */
+  max-width: 520px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.banner-img {
+  max-width: 349px;
+  max-height: 580px;
+  margin-right: 45px;
+}
+
+.navbtn2 {
+  margin-left: 5px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.workVdo {
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  right: 148px;
+  top: 292px;
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 17px 23px 16px 24px;
+}
+
+.workVdo-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+
+.workVdo {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.vidTuto {
+  position: absolute;
+  width: 206px;
+  height: 96px;
+  right: 490px;
+  top: 578px;
+  box-sizing: border-box;
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+  border-radius: 12px;
+  backdrop-filter: blur(18px);
+  background: rgba(48, 48, 48, 0.54);
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.vidBall {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+
+.vidTuto-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.vidTuto-des {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
 }
