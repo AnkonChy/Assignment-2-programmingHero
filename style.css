@@ -326,6 +326,7 @@ li:nth-child(1) {
 }
 
 .img1 {
+  position: relative;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   background-color: rgba(0, 255, 255, 0.5);
@@ -359,6 +360,15 @@ li:nth-child(1) {
   grid-column: 4 / 6;
   grid-row: 2 / 3;
   /* background-color: rgba(255, 0, 255, 0.5); */
+}
+
+.skyblue {
+  position: absolute;
+  top: 0px;
+  width: 305px;
+  height: 200px;
+  background-color: rgba(93, 247, 195, 0.5);
+  z-index: 1;
 }
 
 .training-img {
@@ -546,4 +556,91 @@ option {
   position: absolute;
   top: 275px;
   left: 15px;
+}
+
+/* footer styles */
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  margin-top: 88px;
+  height: 100%;
+}
+.footer-content {
+  /* border: 2px solid rebeccapurple; */
+  width: 80%;
+  height: 449px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-details {
+  max-width: 443px;
+  height: 72px;
+  margin-bottom: 73px;
+}
+
+.footer-title {
+  font-style: italic;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-others {
+  display: flex;
+  margin-top: 66px;
+  gap: 152px;
+}
+
+.footer-service h1 {
+  color: rgb(255, 255, 255);
+  font-size: 39px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.footer-service p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer-fitness h1 {
+  color: rgb(255, 255, 255);
+  font-size: 39px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.footer-fitness p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.footer-hr {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: 79px auto 36px auto;
+}
+.footer-rights {
+  width: 318px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hide {
+  display: none;
 }
