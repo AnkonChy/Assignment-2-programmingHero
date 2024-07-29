@@ -696,11 +696,19 @@ footer {
   }
 
   .workVdo {
-    width: 150px;
+    width: 130px;
     height: 74.09px;
     left: 192px;
     top: 30px;
     padding: 5px;
+  }
+
+  .workVdo-title {
+    font-size: 32px;
+  }
+
+  .workVdo-des {
+    font-size: 10px;
   }
 
   .vidTuto {
@@ -709,6 +717,28 @@ footer {
     left: 15px;
     top: 260px;
     padding: 5px;
+  }
+
+  .title-primary {
+    font-size: 31px;
+  }
+
+  .description-primary {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .habit-container {
+    margin-top: 25px;
+  }
+
+  .habit-secondary {
+    flex-direction: column;
+  }
+
+  .secondary-content-description {
+    margin-top: 6px;
+    margin-bottom: 36px;
   }
 }
 
@@ -730,7 +760,34 @@ footer {
     margin-top: 75px;
   }
 
+  .banner-content {
+    margin-top: 0;
+  }
+
   .banner-img {
     margin: 0 auto;
+  }
+
+  .habit-primary {
+    max-width: 476px;
+    margin: 0 auto;
+  }
+
+  .habit-container {
+    margin-top: 111px;
+  }
+
+  .description-primary {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .habit-secondary {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .habit-secondary-content {
+    margin-bottom: 40px;
   }
 }
