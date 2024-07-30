@@ -356,13 +356,13 @@ li:nth-child(1) {
 }
 
 .img5 {
-  grid-column: 6 / 8;
+  grid-column: 6 / 9;
   grid-row: 2 / 3;
   /* background-color: rgba(0, 255, 0, 0.5); */
 }
 
 .img6 {
-  grid-column: 8 / -1;
+  grid-column: 9 / -1;
   grid-row: 2 / 3;
   /* background-color: rgba(255, 0, 255, 0.5); */
 }
