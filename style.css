@@ -887,6 +887,28 @@ footer {
   .cal-btn {
     width: 224px;
   }
+
+  .team-img {
+    grid-template-columns: 1fr;
+  }
+
+  .t1,
+  .t4 {
+    display: none;
+  }
+
+  .teamImgdetails h2 {
+    font-size: 20px;
+  }
+
+  .teamImgdetails p {
+    font-size: 14px;
+  }
+
+  .teamImgdetails {
+    top: 248px;
+    left: 15px;
+  }
 }
 
 /* responsive for tab/middle device */
@@ -1008,7 +1030,6 @@ footer {
   }
 
   .bmi-machine {
-    border: 2px solid red;
     width: 100%;
   }
 
@@ -1036,5 +1057,21 @@ footer {
 
   .chart-table th {
     padding: 13px 0px 13px 24px;
+  }
+
+  .teamImgdetails h2 {
+    font-size: 20px;
+  }
+
+  .teamImgdetails p {
+    font-size: 14px;
+  }
+
+  .teamImgdetails img {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .teamImgdetails {
+    top: 275px;
+    left: 15px;
   }
 }
