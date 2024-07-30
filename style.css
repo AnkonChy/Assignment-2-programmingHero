@@ -770,6 +770,51 @@ footer {
   .run-description {
     font-size: 14px;
   }
+
+  .training-exercise {
+    max-width: 353px;
+    margin-top: 66px;
+  }
+
+  .training-details {
+    height: 100%;
+    margin-bottom: 62px;
+  }
+
+  .training-description {
+    font-size: 14px;
+  }
+
+  .training-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 134px);
+  }
+  .img1 {
+    grid-column: 1 / 7;
+  }
+
+  .img2 {
+    grid-column: 7 / -1;
+  }
+  .img3 {
+    display: none;
+  }
+
+  .img4 {
+    grid-column: 1 / 7;
+  }
+
+  .img5 {
+    grid-column: 7 / -1;
+  }
+  .img6 {
+    display: none;
+  }
+
+  .skyblue {
+    display: none;
+  }
 }
 
 /* responsive for tab/middle device */
@@ -836,5 +881,41 @@ footer {
   .run-img {
     max-width: 256px;
     max-height: 319px;
+  }
+
+  .skyblue {
+    display: none;
+  }
+
+  .training-exercise {
+    max-width: 684px;
+    height: 581px;
+  }
+
+  .training-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 210px);
+  }
+  .img1 {
+    grid-column: 1 / 5;
+  }
+
+  .img2 {
+    grid-column: 5 / 10;
+  }
+  .img3 {
+    grid-column: 10 / -1;
+  }
+
+  .img4 {
+    grid-column: 1 / 6;
+  }
+
+  .img5 {
+    grid-column: 6 / 10;
+  }
+  .img6 {
+    grid-column: 10 / -1;
   }
 }
