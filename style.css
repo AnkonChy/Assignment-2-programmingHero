@@ -288,8 +288,8 @@ li:nth-child(1) {
 }
 
 .run-details {
-  width: 443px;
-  height: 290px;
+  max-width: 443px;
+  max-height: 290px;
   margin: 40px 0px 40px 54px;
   color: white;
 }
@@ -662,7 +662,8 @@ footer {
   }
 
   .banner-container,
-  .habit-container {
+  .habit-container,
+  .run {
     flex-direction: column;
   }
 
@@ -740,6 +741,35 @@ footer {
     margin-top: 6px;
     margin-bottom: 36px;
   }
+
+  .run {
+    max-width: 353px;
+    max-height: 531px;
+    gap: 0;
+    margin-top: 66px;
+  }
+  .run-details {
+    max-width: 278px;
+    max-height: 264px;
+    margin: 0 auto;
+    margin-top: 31px;
+  }
+
+  .run-btn {
+    width: 282px;
+  }
+
+  .run-img {
+    max-width: 287px;
+    max-height: 170px;
+    margin: 0 auto;
+    margin-top: 31px;
+    margin-bottom: 35px;
+  }
+
+  .run-description {
+    font-size: 14px;
+  }
 }
 
 /* responsive for tab/middle device */
@@ -789,5 +819,22 @@ footer {
 
   .habit-secondary-content {
     margin-bottom: 40px;
+  }
+  .title-primary {
+    font-size: 36px;
+  }
+  .run {
+    gap: 0;
+  }
+
+  .run-details {
+    max-width: 265px;
+    max-height: 308px;
+    margin: 46px 68px 46px 54px;
+  }
+
+  .run-img {
+    max-width: 256px;
+    max-height: 319px;
   }
 }
