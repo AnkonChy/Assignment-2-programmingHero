@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -30,7 +36,8 @@
             Get body in <span>shape</span> & stay healthy
           </h1>
           <p class="banner-description">
-            A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
           </p>
           <button class="btn-primary">Join Club Now!</button
           ><button class="btn-primary navbtn2">Download App</button>
@@ -42,7 +49,7 @@
             <h1 class="workVdo-title">500+</h1>
             <p class="workVdo-des">Free Workout Videos</p>
           </div>
-  
+
           <div class="vidTuto">
             <div class="vidBall"></div>
             <div class="vidDetails">
@@ -51,7 +58,6 @@
             </div>
           </div>
         </div>
-       
       </div>
     </header>
 
@@ -162,11 +168,55 @@
         </div>
       </section>
 
-      <section class="bmi-calculator ">
+      <section class="nutrition">
+        <div class="nutrition-headline">
+          <h2 class="nutrition-title title-primary">Nutrition Essentials</h2>
+          <p class="nutrition-des">
+            Explore essential nutrition tips and advice to complement your
+            fitness journey and achieve a balanced, healthy lifestyle.
+          </p>
+        </div>
+
+        <div class="nutrition-details">
+          <div class="nutriImg nutriImg1">
+            <img src="images/Fiber-e1666699028206.webp" alt="" />
+            <div class="nutriImg-details">
+              <h1 class="nutriImg-title">Fiber</h1>
+              <p class="nutriImg-des">
+                Fiber enhances digestion and helps maintain weight by promoting
+                regularity and satiety.
+              </p>
+            </div>
+          </div>
+          <div class="nutriImg nutriImg2">
+            <img src="images/Muscle-plant-diet.webp" alt="" />
+            <div class="nutriImg-details">
+              <h1 class="nutriImg-title">Plant-based diet</h1>
+              <p class="nutriImg-des">
+                A plant-based diet, rich in whole foods, reduces the risk of
+                chronic diseases.
+              </p>
+            </div>
+          </div>
+          <div class="nutriImg nutriImg3">
+            <img src="images/shutterstock_1774264982lr (1).webp" alt="" />
+            <div class="nutriImg-details">
+              <h1 class="nutriImg-title">Electrolyte Drinks</h1>
+              <p class="nutriImg-des">
+                Electrolyte drinks restore essential salts and minerals to
+                balance body fluids.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bmi-calculator">
         <div class="bmi-headline">
           <h1 class="title-primary">BMI Calculator</h1>
           <p class="bmi-description">
-            We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
           </p>
         </div>
         <div class="calculator">
@@ -174,35 +224,47 @@
             <div class="bmi-chart">
               <h1 class="bmi-chart-title">BMI Calculator Chart</h1>
               <table class="chart-table">
+                <>
+                <th>BMI</th>
+                <th>Weight Status</th>
                 <tr>
-                  <th>BMI</th>
-                  <th>Weight Status</th>
-                  <tr>
-                    <td>Below 18.5</td>
-                    <td>Underweight</td>
-                  </tr>
-                  <tr>
-                    <td>18.5 24.9</td>
-                    <td>Healthy</td>
-                  </tr>
-                  <tr>
-                    <td>25.0 29.9</td>
-                    <td>Overweight</td>
-                  </tr>
-                  <tr>
-                    <td>30.0-and Above</td>
-                    <td>Obese</td>
-                  </tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0-and Above</td>
+                  <td>Obese</td>
                 </tr>
               </table>
             </div>
-    
+
             <div class="bmi-machine">
               <h1 class="machine-title">Calculate your BMI</h1>
-              <p class="machine-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-              <input type="number" name="height" id="" placeholder="Height/cm">
-              <input type="number" name="weight" id="" placeholder="Weight/cm"><br>
-              <input type="number" name="age" id="" placeholder="Age">
+              <p class="machine-description">
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <input
+                type="number"
+                name="height"
+                id=""
+                placeholder="Height/cm"
+              />
+              <input
+                type="number"
+                name="weight"
+                id=""
+                placeholder="Weight/cm"
+              /><br />
+              <input type="number" name="age" id="" placeholder="Age" />
               <select name="sex" id="">
                 <option value="Male">Male</option>
                 <option value="Male">Female</option>
@@ -210,74 +272,80 @@
               <select class="activity" name="activity" id="">
                 <option value="select">Select an activity factor</option>
                 <option class="activity" value="1">1</option>
-                <option class="activity" value="2">2</option>
-              </select><br>
+                <option class="activity" value="2">2</option></select
+              ><br />
               <button class="btn-primary cal-btn">Calculate</button>
-          </div>
+            </div>
           </div>
         </div>
-      </section>  
+      </section>
 
       <section class="team">
         <div class="team-heading">
           <h1 class="title-primary">Meet Our Team</h1>
-          <p class="description-primary team-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+          <p class="description-primary team-des">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
         </div>
         <div class="team-img">
-         <div class="TeamImg t1">
-          <img src="images/trainer1.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Jerome Bell</h2>
-            <p>Trainer</p>
+          <div class="TeamImg t1">
+            <img src="images/trainer1.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Jerome Bell</h2>
+              <p>Trainer</p>
+            </div>
           </div>
-         </div>
-         <div class="TeamImg t2">
-          <img src="images/trainer2.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Cameron William</h2>
-            <p>Trainer</p>
+          <div class="TeamImg t2">
+            <img src="images/trainer2.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Cameron William</h2>
+              <p>Trainer</p>
+            </div>
           </div>
-         </div>
-         <div class="TeamImg t3">
-          <img src="images/trainer3.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Darrell Steward</h2>
-            <p>Trainer</p>
+          <div class="TeamImg t3">
+            <img src="images/trainer3.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Darrell Steward</h2>
+              <p>Trainer</p>
+            </div>
           </div>
-        </div>
-         <div class="TeamImg t4">
-          <img src="images/trainer4.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Dianne Russell</h2>
-            <p>Trainer</p>
-          </div>    
-        </div>   
-         <div class="TeamImg t5">
-          <img src="images/trainer5.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Cody Fisher</h2>
-            <p>Trainer</p>
+          <div class="TeamImg t4">
+            <img src="images/trainer4.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Dianne Russell</h2>
+              <p>Trainer</p>
+            </div>
           </div>
-        </div>
-         <div class="TeamImg t6">
-          <img src="images/trainer6.png" alt="">
-          <div class="teamImgdetails">
-            <h2>Theresa Webb</h2>
-            <p>Trainer</p>
+          <div class="TeamImg t5">
+            <img src="images/trainer5.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Cody Fisher</h2>
+              <p>Trainer</p>
+            </div>
           </div>
-        </div>
+          <div class="TeamImg t6">
+            <img src="images/trainer6.png" alt="" />
+            <div class="teamImgdetails">
+              <h2>Theresa Webb</h2>
+              <p>Trainer</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    
     <footer>
       <div class="footer-content">
         <div class="footer-details">
           <h1 class="footer-title color-primary">Fitness</h1>
-          <p class="footer-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+          <p class="footer-description">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
         </div>
-  
+
         <div class="footer-others">
           <div class="footer-service">
             <h1 class="color-secondary">Get Started</h1>
@@ -286,7 +354,7 @@
             <p>Affiliate Program</p>
             <p>About Us</p>
           </div>
-  
+
           <div class="footer-fitness">
             <h1 class="color-secondary">Get Started</h1>
             <p>Fitness</p>
@@ -296,8 +364,10 @@
           </div>
         </div>
       </div>
-       <hr class="footer-hr">
-       <div class="ff"><p class="footer-rights">All right reserved @Fitness 2024</p></div>
-      </footer>
+      <hr class="footer-hr" />
+      <div class="ff">
+        <p class="footer-rights">All right reserved @Fitness 2024</p>
+      </div>
+    </footer>
   </body>
 </html>
