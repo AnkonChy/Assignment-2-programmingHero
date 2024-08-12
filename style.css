@@ -461,7 +461,7 @@ li:nth-child(1) {
 }
 
 .nutriImg-details {
-  width: 400px;
+  width: 350px;
   position: absolute;
   top: 200px;
   left: 20px;
@@ -901,6 +901,31 @@ footer {
     display: none;
   }
 
+  .nutrition-details {
+    gap: 29px;
+  }
+
+  .nutriImg1 {
+    grid-column: 1 / 12;
+  }
+
+  .nutriImg2 {
+    grid-column: 1 / 12;
+  }
+
+  .nutriImg3 {
+    grid-column: 1 / 12;
+  }
+
+  .nutriImg-details {
+    width: 230px;
+    top: 140px;
+    left: 15px;
+  }
+  .nutriImg-des {
+    font-size: 12px;
+  }
+
   .bmi-calculator {
     margin-top: 50px;
   }
@@ -1131,6 +1156,7 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 210px);
   }
+
   .img1 {
     grid-column: 1 / 5;
   }
@@ -1151,6 +1177,15 @@ footer {
   }
   .img6 {
     grid-column: 10 / -1;
+  }
+
+  .nutriImg-details {
+    width: 170px;
+    left: 10px;
+    top: 190px;
+  }
+  .nutriImg-des {
+    font-size: 12px;
   }
 
   .bmi-headline {
